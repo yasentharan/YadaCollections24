@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yada Collections💫</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Discover elegance with Yada Collections, offering luxury fashion in Colombo, Sri Lanka.">
+    <meta name="keywords" content="Yada Collections, fashion, luxury, Colombo, Sri Lanka">
+    <!-- Favicon (placeholder; add your own if needed) -->
+    <link rel="icon" href="Images/Yada Collections profile image.png" type="image/png">
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Poppins and Cormorant Garamond -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="top-bar">
+            <p>Hotline: +94 704 64 65 16</p>
+        </div>
+        <nav class="navbar">
+            <!-- Text Logo -->
+            <a href="#home" class="logo">
+                <h1>Yada Collections</h1>
+            </a>
+            <!-- Navigation Links -->
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#faqs">FAQs</a></li>
+            </ul>
+            <!-- Cart and Search -->
+            <div class="nav-icons">
+                <span class="search-icon">🔍</span>
+                <span class="cart-icon">🛒 <span id="cart-count">0</span></span>
+            </div>
+            <!-- Hamburger Menu Icon -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <div class="hero">
+                <img src="Images/Main Image final 001.jpg" alt="Yada Collections Hero" class="hero-image" loading="lazy">
+                <div class="hero-text">
+                    <h1>Elegance in Every Thread</h1>
+                    <p>Discover Yada Collections’ curated fashion.</p>
+                    <a href="#collections" class="btn">Shop Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>Our Story</h2>
+            <p>Yada Collections, born in the heart of Colombo, Sri Lanka, is where timeless elegance meets modern style. Our vision is to empower every individual with fashion that tells a story of sophistication and confidence.</p>
+            <ul>
+                <li>Curated designs for all occasions</li>
+                <li>Commitment to quality craftsmanship</li>
+                <li>Inspired by global trends, rooted in local heritage</li>
+            </ul>
+        </section>
+
+        <!-- Collections Section -->
+        <section id="collections">
+            <h2>Our Collections</h2>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="Images/Ladies Fashion 1.jpg" alt="Elegant Dress" loading="lazy">
+                    <h3>Elegant Dress</h3>
+                    <p>LKR 5,500</p>
+                    <a href="#product-details-1" class="btn">View Details</a>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="Images/Ladies Fashion 2.jpg" alt="Chic Blouse" loading="lazy">
+                    <h3>Chic Blouse</h3>
+                    <p>LKR 3,200</p>
+                    <a href="#product-details-2" class="btn">View Details</a>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="Images/Ladies Fashion 3.jpg" alt="Stylish Skirt" loading="lazy">
+                    <h3>Stylish Skirt</h3>
+                    <p>LKR 4,000</p>
+                    <a href="#product-details-3" class="btn">View Details</a>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <img src="Images/Ladies Fashion 4.jpg" alt="Modern Jacket" loading="lazy">
+                    <h3>Modern Jacket</h3>
+                    <p>LKR 6,800</p>
+                    <a href="#product-details-4" class="btn">View Details</a>
+                </div>
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <img src="Images/Ladies Fashion 5.jpg" alt="Classic Top" loading="lazy">
+                    <h3>Classic Top</h3>
+                    <p>LKR 2,900</p>
+                    <a href="#product-details-5" class="btn">View Details</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Details Section (Example for One Product) -->
+        <section id="product-details-1" class="product-details">
+            <h2>Elegant Dress</h2>
+            <div class="details-content">
+                <img src="Images/Ladies Fashion 1.jpg" alt="Elegant Dress" loading="lazy">
+                <div class="details-info">
+                    <p><strong>Price:</strong> LKR 5,500</p>
+                    <p><strong>Description:</strong> A flowing dress perfect for any occasion, crafted with premium fabric.</p>
+                    <p><strong>Sizes:</strong> S, M, L, XL</p>
+                    <button class="btn add-to-cart" data-id="1" data-name="Elegant Dress" data-price="5500">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p><strong>Address:</strong> 188 Keyzer Street, Colombo-11, Sri Lanka</p>
+                    <p><strong>Hotline:</strong> +94 704 64 65 16</p>
+                    <!-- Placeholder Map -->
+                    <div class="map-placeholder">Map of 188 Keyzer Street (Embed Google Map here)</div>
+                </div>
+                <form id="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- FAQs Section with Table -->
+        <section id="faqs">
+            <h2>FAQs</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Question</th>
+                        <th>Answer</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>What are your shipping times?</td>
+                        <td>3-5 business days within Sri Lanka.</td>
+                    </tr>
+                    <tr>
+                        <td>Do you offer returns?</td>
+                        <td>Yes, within 14 days of purchase.</td>
+                    </tr>
+                    <tr>
+                        <td>How do I track my order?</td>
+                        <td>Use the tracking link sent via email.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Newsletter Popup -->
+        <div id="newsletter-popup" class="popup">
+            <div class="popup-content">
+                <span class="close-popup">×</span>
+                <h3>Join Our Fashion Club</h3>
+                <p>Subscribe for exclusive offers and style tips!</p>
+                <form id="newsletter-form">
+                    <input type="email" id="newsletter-email" placeholder="Your Email" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 Yada Collections. All Rights Reserved.</p>
+            <p>188 Keyzer Street, Colombo-11, Sri Lanka | Hotline: +94 704 64 65 16</p>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link to JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
